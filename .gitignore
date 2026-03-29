@@ -1,0 +1,46 @@
+# =====================
+# Node.js
+# =====================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# =====================
+# Next.js (web folder)
+# =====================
+.next/
+out/
+build/
+.vercel
+*.tsbuildinfo
+next-env.d.ts
+
+# =====================
+# Python (scraper folder)
+# =====================
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.env/
+.venv/
+scraper_session.session
+scraper_session.session-journal
+scraper_state.json
+
+# =====================
+# Env files (Secrets)
+# =====================
+.env
+.env.*
+!.env.example
+
+# =====================
+# OS / Misc
+# =====================
+.DS_Store
+*.pem
+Thumbs.db

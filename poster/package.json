@@ -1,0 +1,14 @@
+{
+  "name": "telegram-poster",
+  "version": "1.0.0",
+  "main": "poster.js",
+  "scripts": {
+    "start": "node poster.js"
+  },
+  "dependencies": {
+    "mongoose": "^8.2.0",
+    "node-cron": "^3.0.3",
+    "node-telegram-bot-api": "^0.65.1",
+    "dotenv": "^16.4.5"
+  }
+}
