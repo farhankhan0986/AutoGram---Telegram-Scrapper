@@ -176,7 +176,7 @@ npm install
 Create a `.env` file inside `web/`:
 
 ```env
-MONGO_URI=mongodb+srv://user:password@cluster.mongodb.net/autogram
+MONGO_URI=<YOUR_MONGODB_URI>
 GROQ_API_KEY=gsk_your_groq_api_key
 ```
 
@@ -200,7 +200,7 @@ npm install
 Create a `.env` file inside `poster/`:
 
 ```env
-MONGO_URI=mongodb+srv://user:password@cluster.mongodb.net/autogram
+MONGO_URI=<YOUR_MONGODB_URI>
 BOT_TOKEN=123456789:ABCdef...
 TARGET_CHANNEL_ID=@your_channel_username
 ```
